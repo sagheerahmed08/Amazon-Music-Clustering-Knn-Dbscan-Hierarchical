@@ -1,0 +1,56 @@
+🎵 Amazon Music Clustering — Final Summary Report
+============================================================
+
+Total songs analyzed: 95,837
+Number of Cluster_KMeans clusters: 3
+============================================================
+
+📊 Cluster Size Distribution:
+   Cluster 0: 31,825 songs (33.21%)
+   Cluster 1: 12,207 songs (12.74%)
+   Cluster 2: 51,805 songs (54.06%)
+
+🎧 Detailed Cluster Analysis:
+------------------------------------------------------------
+
+🎧 Cluster 0 Summary:
+   Size: 31,825 songs
+   🔺 High in: duration_ms, acousticness, instrumentalness, key_0, key_1, key_2, key_3, key_4
+      ... and 14 more features
+   🔻 Low in: popularity_songs, explicit, danceability, energy, loudness, speechiness, liveness, valence
+      ... and 3 more features
+   💡 Possible interpretation: Chill or Acoustic songs, Instrumental / Ambient tracks
+   📈 Key Feature Values:
+      danceability: -0.606
+      energy: -0.949
+      valence: -0.535
+      tempo: -0.172
+
+🎧 Cluster 1 Summary:
+   Size: 12,207 songs
+   🔺 High in: popularity_songs, danceability, speechiness, acousticness, liveness, popularity_artists, mode_0, mode_1
+      ... and 2 more features
+   🔻 Low in: duration_ms, explicit, energy, loudness, instrumentalness, valence, tempo, followers
+      ... and 15 more features
+   💡 Possible interpretation: Chill or Acoustic songs, Speech-heavy / Rap, Live performance
+   📈 Key Feature Values:
+      danceability: 0.484
+      energy: -0.263
+      valence: 0.034
+      tempo: -0.552
+
+🎧 Cluster 2 Summary:
+   Size: 51,805 songs
+   🔺 High in: popularity_songs, duration_ms, explicit, danceability, energy, loudness, valence, tempo
+      ... and 3 more features
+   🔻 Low in: speechiness, acousticness, instrumentalness, liveness, followers, popularity_artists, key_0, key_1
+      ... and 14 more features
+   💡 Possible interpretation: Upbeat / Party tracks, Positive mood
+   📈 Key Feature Values:
+      danceability: 0.258
+      energy: 0.645
+      valence: 0.321
+      tempo: 0.235
+
+============================================================
+Report generated successfully.

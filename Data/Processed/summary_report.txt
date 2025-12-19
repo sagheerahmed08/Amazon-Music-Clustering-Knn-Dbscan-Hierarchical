@@ -1,0 +1,50 @@
+Amazon Music Clustering — Final Summary Report
+============================================================
+
+Total songs analyzed: 95,837
+Number of Cluster_KMeans clusters: 3
+============================================================
+
+Cluster Size Distribution:
+   Cluster 0: 13,013 songs (13.58%)
+   Cluster 1: 32,209 songs (33.61%)
+   Cluster 2: 50,615 songs (52.81%)
+
+Detailed Cluster Analysis:
+------------------------------------------------------------
+
+Cluster 0 Summary:
+   Size: 13,013 songs
+   High in: danceability, speechiness, acousticness, liveness
+   Low in: duration_ms, energy, loudness, instrumentalness, valence, tempo
+   Possible interpretation: Chill or Acoustic songs, Speech-heavy / Rap, Live performance
+   Key Feature Values:
+      danceability: 0.492
+      energy: -0.322
+      valence: 0.046
+      tempo: -0.547
+
+Cluster 1 Summary:
+   Size: 32,209 songs
+   High in: duration_ms, acousticness, instrumentalness, tempo
+   Low in: danceability, energy, loudness, speechiness, liveness, valence
+   Possible interpretation: Chill or Acoustic songs, Instrumental / Ambient tracks
+   Key Feature Values:
+      danceability: -0.637
+      energy: -0.928
+      valence: -0.645
+      tempo: -0.176
+
+Cluster 2 Summary:
+   Size: 50,615 songs
+   High in: duration_ms, danceability, energy, loudness, valence, tempo
+   Low in: speechiness, acousticness, instrumentalness, liveness
+   Possible interpretation: Upbeat / Party tracks, Positive mood
+   Key Feature Values:
+      danceability: 0.279
+      energy: 0.673
+      valence: 0.399
+      tempo: 0.253
+
+============================================================
+Report generated successfully.
