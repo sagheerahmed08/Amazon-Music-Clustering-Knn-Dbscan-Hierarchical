@@ -2,9 +2,11 @@
 
 [![Python](https://img.shields.io/badge/Python-3.13-blue)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.47.1-orange)](https://streamlit.io/)
-[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.7.2-yellow)](https://scikit-learn.org/)
-[![XGBoost](https://img.shields.io/badge/XGBoost-Latest-red)](https://xgboost.readthedocs.io/)
-[![AWS S3](https://img.shields.io/badge/AWS-S3-brightgreen)](https://aws.amazon.com/s3/)
+[![sklearn](https://img.shields.io/badge/sklearn-1.7.2-yellow)](https://scikit-learn.org/)
+[![seaborn](https://img.shields.io/badge/seaborn-0.11-blue)](https://seaborn.pydata.org/)
+[![MiniBatchKMeans](https://img.shields.io/badge/MiniBatchKMeans-available-lightgrey)](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.MiniBatchKMeans.html)
+[![DBSCAN](https://img.shields.io/badge/DBSCAN-available-lightgrey)](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.DBSCAN.html)
+[![AgglomerativeClustering](https://img.shields.io/badge/AgglomerativeClustering-available-lightgrey)](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.AgglomerativeClustering.html)
 
 ## Project Overview
 
