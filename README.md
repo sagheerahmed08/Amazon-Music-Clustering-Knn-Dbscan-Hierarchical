@@ -133,22 +133,3 @@ pip install -r requirements.txt
 ```
 
 2. Open `src/Notebook.ipynb` and run cells sequentially for an exploratory workflow, or run `src/main.py` for the scripted pipeline.
-
-## Recommendations & Tips
-
-- Preprocess: remove duplicates and invalid rows before fitting models.
-- For PCA: choose number of components by explained variance (e.g., keep components that cover 80–95% variance).
-- For DBSCAN: create a k-distance plot to select `eps`.
-- For visualizations: use a sample for dendrograms to keep plots readable.
-
-## Contact / Next steps
-
-If you want, I can:
-
-- Add badges for CI and package versions.
-- Write `requirements.txt` into the repo and pin versions.
-- Commit and push the project to your GitHub remote (you'll need to provide authentication or run the `git push` locally).
-
----
-
-Created for the Amazon Music Clustering project — let me know if you want shorter or longer README variants.
